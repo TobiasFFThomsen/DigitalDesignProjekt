@@ -14,7 +14,7 @@
 # To change the name of the waves in the wave view use the -label option
 # Example:
 # add wave -label clk /testbench/clk
-#hej kan du se det JADAAAAA!!!
+#hej kan du se det JADAAAAA!!! og hej i øvrigt
 add wave /testbench/clk
 add wave /testbench/reset
 add wave /testbench/AB
