@@ -50,7 +50,7 @@ BEGIN
 	
 	when loadA	=>
 		reg_a <= AB;
-		next_state <= ack_a; --kan vi evt sål loadA og ack B sammen NB clk
+		next_state <= ack_a --kan vi evt sål loadA og ack B sammen NB clk
 	
 	when ack_a	=>
 		ack <= '1';

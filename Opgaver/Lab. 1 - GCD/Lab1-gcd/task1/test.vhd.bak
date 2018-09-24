@@ -52,9 +52,7 @@ ARCHITECTURE structure OF testbench IS
               ack:         IN std_logic;				-- Computation is complete.
               C:           IN unsigned(15 downto 0));	-- The result.
     END COMPONENT;
-	
-	SIGNAL req, ack, clk, reset: std_logic;
-	SIGNAL AB, C: unsigned(15 downto 0);
+
 
 BEGIN
     -- assert reset, note that reset is active high
