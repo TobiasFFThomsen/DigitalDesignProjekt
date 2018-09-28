@@ -30,16 +30,23 @@ TYPE state_type IS (idle, loadA, loadB, Calc, Disp, ack_a, waitState); -- Input 
 
 SIGNAL reg_a,next_reg_a,next_reg_b,reg_b : unsigned(15 downto 0);
 
-SIGNAL state, next_state : state_type;
+--SIGNAL state, next_state : state_type;
+
+SIGNAL next_state : state_type;
+SIGNAL state : state_type;
+
+--state <= idle;
+
 
 
 BEGIN
 
 -- Combinatoriel logic
 
-CL: PROCESS (req,AB,state,reg_a,reg_b,reset)
+CL: PROCESS (state,req,clk,next_state,reg_a,reg_b)
 BEGIN
-
+--default value:
+ack <= '0';
    CASE (state) IS
 	when idle	=>
 		if req = '1' then
@@ -68,11 +75,10 @@ BEGIN
 		end if;
 
 	when loadB	=>
-		reg_a <= AB;
+		reg_b <= AB;
 		next_state <= Calc;
 
 	when Calc	=>
-		--then some magic happens
 		if reg_a = reg_b then 
 			c <= reg_a;
 			next_state <= Disp;
@@ -105,6 +111,7 @@ seq: PROCESS (clk, reset)
 BEGIN
 	if(reset='1')	then
 		state <= idle;
+		--next_state <= idle;
 	elsif(clk'event and clk='1') then
 		state <= next_state;
 	end if;

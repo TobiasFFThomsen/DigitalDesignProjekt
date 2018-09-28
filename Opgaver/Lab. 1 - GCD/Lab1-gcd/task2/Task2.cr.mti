@@ -1,13 +1,4 @@
-{C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_sim.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_sim.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Compiling architecture sim_behav of debounce
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading entity debounce
-
-} {} {}} {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_entity.vhd}
+{C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_entity.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -15,14 +6,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package NUMERIC_STD
 -- Compiling entity debounce
 
-} {} {}} {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/gcd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/gcd.vhd}
+} {} {}} {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_sim.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_sim.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
+-- Compiling architecture sim_behav of debounce
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity gcd
--- Compiling architecture FSMD of gcd
+-- Loading entity debounce
 
 } {} {}} {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_synth.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_synth.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -42,15 +33,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity testbench
 -- Compiling architecture structure of testbench
 
-} {} {}} {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task1/env.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task1/env.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity env
--- Compiling architecture behaviour of env
-
 } {} {}} {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/gcd_top.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/gcd_top.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -59,5 +41,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package NUMERIC_STD
 -- Compiling entity gcd_sys
 -- Compiling architecture fsmd_io of gcd_sys
+
+} {} {}} {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task1/env.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task1/env.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity env
+-- Compiling architecture behaviour of env
 
 } {} {}}

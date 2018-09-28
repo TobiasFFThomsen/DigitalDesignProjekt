@@ -22,9 +22,9 @@ VV8QJR`C?>BDf7KX=`cJDf2
 !s100 >Y:Z`l?lCTkD9EOW[AXVB3
 Z5 OP;C;10.4a;61
 32
-Z6 !s110 1537437072
+Z6 !s110 1538039452
 !i10b 1
-Z7 !s108 1537437072.000000
+Z7 !s108 1538039452.000000
 !s90 -reportprogress|300|-quiet|debounce_entity.vhd|
 !s107 debounce_entity.vhd|
 !i113 1
@@ -64,13 +64,13 @@ V4`<=C^:ZN6EgFVkgIg70>0
 !s100 RSMeJSGOLGLM^Pl=NVNh21
 R5
 32
-!s110 1537437053
+Z10 !s110 1538039444
 !i10b 1
-!s108 1537437053.000000
+Z11 !s108 1538039444.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_synth.vhd|
 !s107 C:/DigitalDesignProjekt/Opgaver/Lab. 1 - GCD/Lab1-gcd/task2/debounce_synth.vhd|
 !i113 1
-Z10 o-work work -2002 -explicit -O0
+Z12 o-work work -2002 -explicit -O0
 R9
 Eenv
 R0
@@ -78,19 +78,19 @@ R1
 R2
 R3
 R4
-Z11 8../task1/env.vhd
-Z12 F../task1/env.vhd
+Z13 8../task1/env.vhd
+Z14 F../task1/env.vhd
 l0
 L25
 VIzfj2HVc?UdCeCePo4F>P0
 !s100 BgL`12aT<l9VgMXFdWobS3
 R5
 32
-R6
+Z15 !s110 1538039453
 !i10b 1
-R7
-Z13 !s90 -reportprogress|300|-quiet|../task1/env.vhd|
-Z14 !s107 ../task1/env.vhd|
+Z16 !s108 1538039453.000000
+Z17 !s90 -reportprogress|300|-quiet|../task1/env.vhd|
+Z18 !s107 ../task1/env.vhd|
 !i113 1
 R8
 R9
@@ -105,33 +105,33 @@ VFk5U;CgC?]i<ndbOSE=Jh1
 !s100 ?^NXF?_e2dHV=g[G@D1lj2
 R5
 32
-R6
+R15
 !i10b 1
-R7
-R13
-R14
+R16
+R17
+R18
 !i113 1
 R8
 R9
 Egcd
-Z15 w1537435541
+Z19 w1538039408
 R1
 R2
 R3
 R4
-Z16 8gcd.vhd
-Z17 Fgcd.vhd
+Z20 8gcd.vhd
+Z21 Fgcd.vhd
 l0
 L18
 VZje=5J_j46h_Y[nW[J[S72
 !s100 EkBk;2Uk]z>kjH[YoG=O[1
 R5
 32
-R6
+R15
 !i10b 1
-R7
-Z18 !s90 -reportprogress|300|-quiet|gcd.vhd|
-Z19 !s107 gcd.vhd|
+R16
+Z22 !s90 -reportprogress|300|-quiet|gcd.vhd|
+Z23 !s107 gcd.vhd|
 !i113 1
 R8
 R9
@@ -140,17 +140,17 @@ R1
 R2
 R3
 DEx4 work 3 gcd 0 22 Zje=5J_j46h_Y[nW[J[S72
-l36
+l42
 L27
-V<I:=MI^WXSE`W2Q^oj7NN2
-!s100 lXz0Ud[RDI8Lz^E`HlnMN0
+V`@PZ5G=lmW1oX[W44:>cP1
+!s100 UJhlHi5:JB;mIS`mQB9V02
 R5
 32
-R6
+R15
 !i10b 1
-R7
-R18
-R19
+R16
+R22
+R23
 !i113 1
 R8
 R9
@@ -160,19 +160,19 @@ R1
 R2
 R3
 R4
-Z20 8gcd_top.vhd
-Z21 Fgcd_top.vhd
+Z24 8gcd_top.vhd
+Z25 Fgcd_top.vhd
 l0
 L17
 V`0kP7;;LfTk^j2JJ34z7T2
 !s100 M_kb`zK2dMdL[zJP6:>C30
 R5
 32
-R6
+R15
 !i10b 1
-R7
-Z22 !s90 -reportprogress|300|-quiet|gcd_top.vhd|
-Z23 !s107 gcd_top.vhd|
+R16
+Z26 !s90 -reportprogress|300|-quiet|gcd_top.vhd|
+Z27 !s107 gcd_top.vhd|
 !i113 1
 R8
 R9
@@ -187,33 +187,33 @@ V`nXBBONEYM]IYi9A7g;9Z2
 !s100 lhVgOaJ>fd=<KP<lbWf6:2
 R5
 32
-R6
+R15
 !i10b 1
-R7
-R22
-R23
+R16
+R26
+R27
 !i113 1
 R8
 R9
 Etestbench
-Z24 w1537437048
+Z28 w1538039057
 R1
 R2
 R3
 R4
-Z25 8../task1/test.vhd
-Z26 F../task1/test.vhd
+Z29 8../task1/test.vhd
+Z30 F../task1/test.vhd
 l0
 L27
 Vd>WBS3Z[=ZhgUUiPlQ_dR2
 !s100 B:@>PUP3_FS6Skgo=Y=VJ0
 R5
 32
-R6
+R15
 !i10b 1
-R7
-Z27 !s90 -reportprogress|300|-quiet|../task1/test.vhd|
-Z28 !s107 ../task1/test.vhd|
+R16
+Z31 !s90 -reportprogress|300|-quiet|../task1/test.vhd|
+Z32 !s107 ../task1/test.vhd|
 !i113 1
 R8
 R9
@@ -224,15 +224,15 @@ R3
 DEx4 work 9 testbench 0 22 d>WBS3Z[=ZhgUUiPlQ_dR2
 l59
 L35
-VQNPUiWaeg<[4MMOR^W:JC0
-Z29 !s100 Jz:bG[cB3eo1neP:b?3DN1
+VBH3el_HK=HFaMj^h4PJB62
+Z33 !s100 gjQ1541`6adMKa:Ve5Pj:3
 R5
 32
-R6
+R15
 !i10b 1
-R7
-R27
-R28
+R16
+R31
+R32
 !i113 1
 R8
 R9

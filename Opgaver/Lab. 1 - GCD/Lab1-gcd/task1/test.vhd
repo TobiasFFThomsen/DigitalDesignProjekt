@@ -59,11 +59,11 @@ ARCHITECTURE structure OF testbench IS
 BEGIN
     -- assert reset, note that reset is active high
     reset <= '1', '0' after 110 ns;
-
+    --reset <= '0';
     environment: env
         PORT MAP (clk, reset, req, AB, ack, C);
 
     GCD_module: gcd
-        PORT MAP (clk, reset, req, AB, ack, C);
+        PORT MAP (clk=>clk, reset=>reset, req=>req, AB=>AB, ack=>ack, C=>C);
 
 END structure;

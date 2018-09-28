@@ -20,6 +20,11 @@ add wave /testbench/AB
 add wave /testbench/req
 add wave /testbench/C
 add wave /testbench/ack
+add wave /testbench/GCD_module/state
+add wave /testbench/GCD_module/next_state
+add wave /testbench/GCD_module/reg_a
+add wave /testbench/GCD_module/reg_b
+
 
 run 5000ns
 

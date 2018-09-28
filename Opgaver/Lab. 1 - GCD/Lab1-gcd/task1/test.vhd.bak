@@ -52,16 +52,18 @@ ARCHITECTURE structure OF testbench IS
               ack:         IN std_logic;				-- Computation is complete.
               C:           IN unsigned(15 downto 0));	-- The result.
     END COMPONENT;
-
+	
+	SIGNAL req, ack, clk, reset: std_logic;
+	SIGNAL AB, C: unsigned(15 downto 0);
 
 BEGIN
     -- assert reset, note that reset is active high
-    reset <= '1', '0' after 110 ns;
-
+    --reset <= '0', '1' after 20 ns, '0' after 50 ns;
+    reset <= '0';
     environment: env
         PORT MAP (clk, reset, req, AB, ack, C);
 
     GCD_module: gcd
-        PORT MAP (clk, reset, req, AB, ack, C);
+        PORT MAP (clk=>clk, reset=>reset, req=>req, AB=>AB, ack=>ack, C=>C);
 
 END structure;
