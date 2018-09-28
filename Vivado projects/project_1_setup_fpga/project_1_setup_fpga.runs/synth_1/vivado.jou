@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Sep 25 17:54:08 2018
+# Process ID: 22292
+# Current directory: C:/Users/Christian/Documents/DigitalDesignProjekt/Vivado projects/project_1_setup_fpga/project_1_setup_fpga.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: C:/Users/Christian/Documents/DigitalDesignProjekt/Vivado projects/project_1_setup_fpga/project_1_setup_fpga.runs/synth_1/Top.vds
+# Journal file: C:/Users/Christian/Documents/DigitalDesignProjekt/Vivado projects/project_1_setup_fpga/project_1_setup_fpga.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace
